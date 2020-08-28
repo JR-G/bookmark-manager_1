@@ -2,7 +2,7 @@ require 'sinatra/base'
 require 'sinatra/flash'
 require_relative './lib/bookmarks'
 require_relative './database_setup.rb'
-require 'uri'
+
 
 class BookmarkManager < Sinatra::Base
   enable :sessions, :method_override
@@ -39,6 +39,11 @@ class BookmarkManager < Sinatra::Base
   patch '/bookmarks/:id' do
     Bookmarks.update(url: params['url'], title: params['title'], id: params[:id])
     redirect '/bookmarks'
+  end
+
+  post "/post_comment" do 
+    DatabaseConnection.query("INSERT INTO comments (text, bookmark_id) VALUES ('#{params[:comment]}', '#{params[:id]}')")
+    redirect "/bookmarks"
   end
 
   

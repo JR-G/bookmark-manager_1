@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/james/ruby/makers/4_weekfour/bookmark-manager_1/spec/bookmarks_spec.rb": {
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -71,7 +71,7 @@
           null
         ]
       },
-      "/Users/james/ruby/makers/4_weekfour/bookmark-manager_1/spec/database_helpers.rb": {
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/database_helpers.rb": {
         "lines": [
           1,
           null,
@@ -84,7 +84,26 @@
           null
         ]
       },
-      "/Users/james/ruby/makers/4_weekfour/bookmark-manager_1/spec/database_connection_spec.rb": {
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/comment_spec.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/database_connection_spec.rb": {
         "lines": [
           1,
           null,
@@ -113,7 +132,7 @@
           null
         ]
       },
-      "/Users/james/ruby/makers/4_weekfour/bookmark-manager_1/spec/features/adding_new_bookmark_spec.rb": {
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/features/adding_new_bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -127,7 +146,21 @@
           null
         ]
       },
-      "/Users/james/ruby/makers/4_weekfour/bookmark-manager_1/spec/features/deleting_bookmark_spec.rb": {
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/features/comment_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/features/deleting_bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -143,7 +176,7 @@
           null
         ]
       },
-      "/Users/james/ruby/makers/4_weekfour/bookmark-manager_1/spec/features/updating_bookmarks_spec.rb": {
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/features/updating_bookmarks_spec.rb": {
         "lines": [
           null,
           1,
@@ -167,7 +200,7 @@
           null
         ]
       },
-      "/Users/james/ruby/makers/4_weekfour/bookmark-manager_1/spec/features/validating_entry_spec.rb": {
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/features/validating_entry_spec.rb": {
         "lines": [
           1,
           1,
@@ -181,7 +214,7 @@
           null
         ]
       },
-      "/Users/james/ruby/makers/4_weekfour/bookmark-manager_1/spec/features/viewing_bookmarks_spec.rb": {
+      "/Users/Maximize/Desktop/Makers/week4/friday/bookmark-manager_1/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -204,6 +237,6 @@
         ]
       }
     },
-    "timestamp": 1598627035
+    "timestamp": 1598630475
   }
 }
