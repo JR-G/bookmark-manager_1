@@ -1,4 +1,5 @@
 <ul>
+  <%= flash[:notice] %>
   <% @bookmarks.each do |bookmark| %>
     <li class='bookmark' id="bookmark-<%= bookmark.id %>">
       <a href="<%= bookmark.url %>">

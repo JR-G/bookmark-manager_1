@@ -13,5 +13,6 @@ group :development, :test do
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
   gem "sinatra"
+  gem "sinatra-flash"
 
 end
